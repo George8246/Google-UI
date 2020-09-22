@@ -1,0 +1,121 @@
+.top{
+  text-align: right;
+  padding: 15px 25px;
+  color: rgba(0,0,0,0.87);
+}
+.top:visited{
+  color: rgba(0,0,0,0.87);
+}
+body{
+  text-align: center;
+  line-height: 2;
+  margin: 0;
+  background-color: #fff;
+  font-family: sans-serif;
+}
+.icon {
+  position: absolute;
+  width: 25px;
+  top: 288px;
+  left: 474px;
+}
+.search{
+  margin-top: 100px;
+  margin-bottom: 287px;
+}
+.top-anchor{
+  padding-left: 9px;
+  font-size: 13px;
+}
+.top-anchor:hover{
+  padding-left: 9px;
+  font-size: 13px;
+  color: #5f6368;
+}
+input[type=text] {
+  width: 100%;
+  padding: 12px 45px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 1px solid #cabebe87;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  outline: none;
+  width: 40%;
+  border-radius: 40px;
+  background-color: transparent;
+  margin-bottom: 10px;
+}
+.anchor-botton{
+  color: #5F6368;
+}
+.anchor-botton:hover{
+  text-decoration: none;
+}
+a{
+  text-decoration: none;
+}
+a:hover{
+  text-decoration: underline;
+}
+.copyright{
+  text-align: left;
+  background-color: #f2f2f2;
+  padding: 10px;
+  font-size: 14px;
+  border-top: 1px solid #e4e4e4;
+}
+input:hover{
+  box-shadow: 1px 1px 5px hsl(229, 6%, 66%)
+}
+input:focus {
+  border: 2px solid dodgerblue;
+}
+form{
+  margin: 5px;
+}
+
+.btn {
+  margin-top: 20px;
+  -webkit-border-radius: 4;
+  -moz-border-radius: 4;
+  border-radius: 4px;
+  font-family: Arial;
+  color: #5F6368;
+  font-size: 14px;
+  background: #f2f2f2;
+  padding: 8px 16px 8px 16px;
+  border: solid #f2f2f2 1px;
+  text-decoration: none;
+  margin-left: 10px;
+}
+.image-logo{
+  position: absolute;
+  right: 635px;
+  top: 213px;
+  color: #4285f4;
+}
+.btn:hover {
+  background: #f2f2f2;
+  text-decoration: none;
+  color: gary;
+  border: 1px solid #5F6368;
+  box-shadow: 1px 1px 5px hsl(229, 6%, 66%);
+}
+.left-anchor{
+  color: #5f6368;
+  padding-left: 20px;
+}
+.right-space{
+  margin-right: 920px;
+}
+.right-anchor{
+  color: #5f6368;
+  padding-left: 20px;
+}
+.left-anchor:focus {
+  color: red;
+}
+.right-anchor:focus {
+  color: red;
+}
